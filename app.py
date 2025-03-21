@@ -9,6 +9,7 @@ first_names = ['Jose', 'Kevin', 'Steven',
                 'Margaret', 'Ying', 'Linda', 'Michelle']
 
 
+shuffle(first_names)
 
 last_names = ['Ma', 'Das', 'Pham', 'Duong',
               'Hassan', 'Park', 'Miller', 'Petrov',
@@ -16,12 +17,15 @@ last_names = ['Ma', 'Das', 'Pham', 'Duong',
               'Pérez', 'Yadav', 'Sánchez', 'Joshi',
               'Kumar', 'He', 'Wilson', 'Yoon']
 
-num_of_customers = 10
+shuffle(last_names)
+
+# TODO add age and dob column using timedeltas
+customer_count = 10
 
 credit_scores = [randint(400, 999) for score in range(0,10)]
 
 with open('credit_scores.csv', 'w') as file:
     writer = csv.writer(file)
     writer.writerow(['first_name', 'last_name', 'credit_score'])
-    for i in range(num_of_customers):
+    for i in range(customer_count):
         writer.writerow([choice(first_names), choice(last_names), choice(credit_scores)])
