@@ -1,5 +1,6 @@
 from random import randint, choice, shuffle
 import csv
+from datetime import date
 
 first_names = ['Jose', 'Kevin', 'Steven',
               'Richard', 'David', 'Christopher',
@@ -20,12 +21,18 @@ last_names = ['Ma', 'Das', 'Pham', 'Duong',
 shuffle(last_names)
 
 # TODO add age and dob column using timedeltas
-customer_count = 10
+customer_count = 100
 
 credit_scores = [randint(400, 999) for score in range(0,10)]
 
+birth_dates = []
+for i in range(customer_count):
+    birth_dates.append(date(randint(1937, 2005), randint(1, 12), randint(1, 30)))
+
 with open('credit_scores.csv', 'w') as file:
     writer = csv.writer(file)
-    writer.writerow(['first_name', 'last_name', 'credit_score'])
+    writer.writerow(['first_name', 'last_name', 'credit_score', 'birth_date'])
     for i in range(customer_count):
-        writer.writerow([choice(first_names), choice(last_names), choice(credit_scores)])
+        writer.writerow([choice(first_names), choice(last_names), choice(credit_scores), choice(birth_dates)])
+
+
