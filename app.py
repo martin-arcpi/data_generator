@@ -31,8 +31,8 @@ for i in range(customer_count):
 
 with open('credit_scores.csv', 'w') as file:
     writer = csv.writer(file)
-    writer.writerow(['first_name', 'last_name', 'credit_score', 'birth_date'])
+    writer.writerow(['ID', 'first_name', 'last_name', 'credit_score', 'birth_date'])
     for i in range(customer_count):
-        writer.writerow([choice(first_names), choice(last_names), choice(credit_scores), choice(birth_dates)])
+        writer.writerow([i+1, choice(first_names), choice(last_names), choice(credit_scores), choice(birth_dates)])
 
 
