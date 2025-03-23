@@ -29,10 +29,15 @@ birth_dates = []
 for i in range(customer_count):
     birth_dates.append(date(randint(1937, 2005), randint(1, 12), randint(1, 30)))
 
+employment_status = ['Employed', 'Self-Employed', 'Unemployed', 'Student']
+
 with open('credit_scores.csv', 'w') as file:
     writer = csv.writer(file)
-    writer.writerow(['ID', 'first_name', 'last_name', 'credit_score', 'birth_date'])
+    writer.writerow(['ID', 'first_name', 'last_name',
+                     'credit_score', 'birth_date', 'employment_status'])
     for i in range(customer_count):
-        writer.writerow([i+1, choice(first_names), choice(last_names), choice(credit_scores), choice(birth_dates)])
+        writer.writerow([i+1, choice(first_names), choice(last_names),
+                              choice(credit_scores), choice(birth_dates),
+                              choice(employment_status)])
 
 
