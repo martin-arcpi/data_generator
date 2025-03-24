@@ -31,13 +31,36 @@ for i in range(customer_count):
 
 employment_status = ['Employed', 'Self-Employed', 'Unemployed', 'Student']
 
+# cities = [
+#     "Tokyo", "New York", "Shanghai", "São Paulo", "Mumbai", 
+#     "Beijing", "London", "Los Angeles", "Paris", "Mexico City",
+#     "Barcelona", "Vancouver", "Munich", "Cape Town", "Kuala Lumpur", 
+#     "Bogotá", "Hanoi", "Stockholm", "Milan", "Jakarta",
+#     "Bruges", "Innsbruck", "Santorini", "Ushuaia", "Queenstown", 
+#     "Reykjavik", "Luang Prabang", "Bergen", "Siem Reap", "Zermatt"
+# ]
+# shuffle(cities)
+
+
+countries = [
+    "China", "India", "United States", "Indonesia", "Pakistan",
+    "Brazil", "Nigeria", "Bangladesh", "Russia", "Mexico",
+    "Canada", "Australia", "Argentina", "South Korea", "Spain",
+    "Poland", "Saudi Arabia", "Netherlands", "Thailand", "Turkey",
+    "Iceland", "Luxembourg", "Malta", "Fiji", "Bhutan",
+    "Monaco", "Liechtenstein", "San Marino", "Andorra", "Seychelles"
+]
+shuffle(countries)
+
 with open('credit_scores.csv', 'w') as file:
     writer = csv.writer(file)
     writer.writerow(['ID', 'first_name', 'last_name',
-                     'credit_score', 'birth_date', 'employment_status'])
+                     'credit_score', 'birth_date', 'employment_status',
+                     'country'])
     for i in range(customer_count):
         writer.writerow([i+1, choice(first_names), choice(last_names),
                               choice(credit_scores), choice(birth_dates),
-                              choice(employment_status)])
+                              choice(employment_status),
+                              choice(countries)])
 
 
