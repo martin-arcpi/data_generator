@@ -1,101 +1,101 @@
-ID,first_name,last_name,credit_score,birth_date,employment_status,country
-1,Maria,Miller,611,2001-07-04,Employed,Mozambique
-2,Kevin,Hassan,716,1945-07-30,Student,Nepal
-3,Joshua,Pham,556,2001-04-27,Self-Employed,Turkmenistan
-4,Ying,Kumar,716,1952-02-14,Self-Employed,Korea (South)
-5,Jose,Yoon,582,1998-05-14,Employed,Venezuela
-6,Richard,Wilson,900,1972-02-21,Student,Costa Rica
-7,Anthony,Yadav,477,1948-09-07,Employed,Grenada
-8,Steven,Yadav,900,1959-05-19,Unemployed,Bahrain
-9,Margaret,Petrov,473,1968-03-05,Student,Kazakhstan
-10,Anthony,Park,473,1990-08-02,Unemployed,Lesotho
-11,Steven,Pham,477,1959-04-08,Self-Employed,Equatorial Guinea
-12,Kevin,Pham,613,1949-03-07,Employed,Equatorial Guinea
-13,Joshua,Petrov,683,1985-08-11,Unemployed,San Marino
-14,Kevin,Joshi,829,1993-07-05,Employed,Pakistan
-15,Betty,Sánchez,556,1994-06-06,Employed,Cameroon
-16,Nancy,Wilson,611,1949-07-10,Self-Employed,Kyrgyzstan
-17,Karen,Das,829,1965-11-20,Self-Employed,Costa Rica
-18,Maria,He,613,1994-06-06,Self-Employed,Trinidad and Tobago
-19,Karen,Kumar,473,1968-03-05,Unemployed,Jamaica
-20,Richard,Yoon,582,1984-02-20,Unemployed,Zimbabwe
-21,Jose,Wilson,477,1999-12-21,Self-Employed,Tanzania
-22,Karen,Hassan,683,1996-02-18,Self-Employed,Portugal
-23,DanielCynthia,Kumar,683,1941-10-02,Student,Cuba
-24,Karen,Ma,716,1973-01-11,Unemployed,Lesotho
-25,Karen,Pham,477,2003-12-29,Unemployed,Panama
-26,Anthony,Kumar,716,1987-09-05,Self-Employed,Slovenia
-27,Margaret,Mehta,473,1967-12-14,Student,Denmark
-28,Anthony,Miller,900,1945-08-20,Employed,Costa Rica
-29,Brian,Park,611,1963-08-28,Employed,Iceland
-30,Kevin,Park,716,1979-09-10,Unemployed,Peru
-31,Steven,Duong,582,1962-11-18,Self-Employed,Saint Kitts and Nevis
-32,Margaret,Yadav,613,1949-07-10,Unemployed,Australia
-33,DanielCynthia,Pham,683,1987-09-05,Unemployed,Venezuela
-34,Steven,Duong,582,1985-08-11,Self-Employed,Ghana
-35,Margaret,Duong,683,1994-01-17,Unemployed,New Zealand
-36,Joshua,He,473,1966-05-26,Employed,Peru
-37,Michelle,Yoon,829,1970-01-29,Self-Employed,Kuwait
-38,Michelle,He,683,1969-04-19,Unemployed,Libya
-39,Brian,Duong,716,2003-12-29,Unemployed,Marshall Islands
-40,Kevin,Das,716,1968-04-28,Student,Malaysia
-41,Joshua,Petrov,613,2003-07-17,Employed,United Arab Emirates
-42,Maria,Kumar,477,1994-06-06,Student,Uzbekistan
-43,Christine,Kumar,473,1999-08-02,Employed,Poland
-44,Ying,Hassan,900,1944-11-10,Employed,Saint Kitts and Nevis
-45,Karen,Mehta,900,1959-04-08,Self-Employed,United Arab Emirates
-46,Richard,Mehta,582,1999-09-04,Employed,Egypt
-47,Betty,Pérez,716,1969-06-03,Self-Employed,Egypt
-48,DanielCynthia,He,829,1968-04-28,Employed,Germany
-49,Jose,Kumar,683,1965-11-20,Self-Employed,Liechtenstein
-50,Anthony,Mehta,683,1958-12-30,Student,Malta
-51,David,Park,477,1995-05-10,Self-Employed,Colombia
-52,Linda,Zheng,611,1950-05-09,Employed,Madagascar
-53,DanielCynthia,Pérez,611,1948-02-22,Student,Tajikistan
-54,Brian,Zheng,683,1974-10-09,Self-Employed,Lesotho
-55,Karen,Joshi,556,1993-04-07,Unemployed,Ecuador
-56,Brian,Park,582,1994-06-06,Self-Employed,Samoa
-57,Christine,Mehta,477,1995-05-10,Student,India
-58,Joshua,Mehta,582,2005-06-11,Employed,Malaysia
-59,Anthony,Ma,611,1968-06-17,Unemployed,Guinea
-60,Nancy,He,829,1972-02-21,Employed,Qatar
-61,Linda,Yoon,716,1959-04-08,Self-Employed,Malawi
-62,Karen,Hassan,829,1950-05-09,Student,Germany
-63,Jose,Hassan,611,1969-06-03,Unemployed,Suriname
-64,Christopher,Kumar,613,1950-05-09,Self-Employed,Argentina
-65,Steven,Park,556,1985-06-16,Self-Employed,Burundi
-66,Christopher,Yoon,829,1974-07-04,Unemployed,Tanzania
-67,Brian,Ma,613,1959-12-26,Employed,Belgium
-68,Richard,Yoon,900,1968-04-28,Student,Canada
-69,Christine,Das,683,2004-11-08,Unemployed,Switzerland
-70,Richard,Pérez,582,1959-04-08,Self-Employed,Iraq
-71,Ying,Hassan,477,1945-08-20,Unemployed,Kazakhstan
-72,David,Kumar,613,1973-01-11,Employed,Norway
-73,Joshua,Miller,613,1968-04-28,Employed,Tanzania
-74,Michelle,Kumar,582,1986-07-21,Self-Employed,Oman
-75,Kevin,Pham,613,1959-12-26,Employed,Tajikistan
-76,Richard,Sánchez,829,1953-09-21,Employed,Germany
-77,Betty,Miller,900,1962-11-18,Self-Employed,Russia
-78,Karen,Ma,613,1967-12-14,Unemployed,Belarus
-79,David,Yoon,683,1953-07-23,Unemployed,Slovakia
-80,Christine,Mehta,683,1943-05-01,Employed,Ethiopia
-81,Christopher,Park,582,1953-08-06,Employed,Iran
-82,Maria,Ma,900,1993-07-15,Student,Australia
-83,David,Pérez,829,1938-07-27,Unemployed,Madagascar
-84,Maria,Joshi,582,1968-03-05,Student,Egypt
-85,Anthony,Wilson,900,1973-01-11,Self-Employed,Liberia
-86,Maria,Das,611,1982-07-21,Self-Employed,Sudan
-87,Michelle,Yoon,473,1969-06-03,Self-Employed,Saint Kitts and Nevis
-88,Christopher,Yadav,477,1979-09-10,Student,Bahamas
-89,Brian,Pham,683,2000-08-17,Student,Liechtenstein
-90,Jose,Yadav,473,1993-03-17,Unemployed,Saudi Arabia
-91,Jose,Miller,900,1952-02-14,Unemployed,Afghanistan
-92,Ying,Joshi,683,1937-04-14,Employed,Iran
-93,Karen,Duong,683,1999-09-04,Unemployed,United Kingdom
-94,Steven,Ma,829,2004-11-08,Student,Marshall Islands
-95,Joshua,Pérez,611,1974-06-05,Employed,Equatorial Guinea
-96,Karen,Park,477,1968-06-17,Employed,Poland
-97,Karen,Ma,556,1968-01-04,Student,Portugal
-98,Betty,Pérez,611,2001-01-29,Self-Employed,Hungary
-99,Richard,Petrov,556,1974-10-21,Unemployed,Jamaica
-100,David,Pham,611,1962-11-18,Student,Congo (Democratic Republic of the Congo)
+ID,first_name,last_name,credit_score,birth_date,employment_status,country,annual_salary
+1,Christine,Yoon,570,1962-09-25,Self-Employed,Panama,207639
+2,Joshua,Hassan,967,1955-09-21,Student,Armenia,154189
+3,Nancy,He,851,1959-02-06,Student,Cabo Verde,223662
+4,Christine,Pérez,832,1946-12-01,Unemployed,Dominica,61874
+5,Michelle,Pham,415,1946-12-01,Unemployed,Monaco,103600
+6,Anthony,Kumar,967,1954-08-06,Unemployed,Tanzania,90274
+7,Anthony,Miller,868,1970-11-21,Self-Employed,Trinidad and Tobago,323976
+8,Joshua,Joshi,967,1951-09-03,Employed,Solomon Islands,462853
+9,Ying,Duong,851,1988-11-03,Self-Employed,Gambia,234371
+10,Kevin,Joshi,851,1962-08-14,Employed,Laos,446930
+11,Kevin,Pham,868,1946-04-22,Unemployed,Trinidad and Tobago,283043
+12,Jose,Park,991,1970-01-22,Self-Employed,United Arab Emirates,426282
+13,Kevin,Yoon,880,1981-04-04,Student,Honduras,446440
+14,DanielCynthia,Petrov,832,1964-12-28,Student,Ghana,28046
+15,Steven,Yadav,868,2002-07-15,Student,Ecuador,209626
+16,Ying,Park,967,1946-12-01,Unemployed,Russia,106309
+17,Anthony,He,570,1939-05-25,Self-Employed,Dominican Republic,283246
+18,Christopher,Pérez,991,1998-08-07,Employed,Solomon Islands,459516
+19,Anthony,Yoon,570,1982-04-05,Self-Employed,North Macedonia,89642
+20,Steven,Ma,570,1938-11-04,Self-Employed,Eritrea,200943
+21,Jose,Pham,967,1957-08-02,Employed,Sri Lanka,345869
+22,Joshua,Lim,880,1938-11-04,Unemployed,Cyprus,154245
+23,Nancy,He,880,1945-07-20,Employed,Algeria,141445
+24,Michelle,Hassan,832,1964-04-21,Student,San Marino,227590
+25,Margaret,Sánchez,967,1951-11-29,Unemployed,Nigeria,330995
+26,Nancy,Yoon,832,1983-02-12,Employed,Switzerland,414251
+27,Maria,Yoon,415,2002-07-15,Self-Employed,New Zealand,351218
+28,Brian,Ma,967,1988-03-18,Employed,Yemen,347821
+29,Nancy,Kumar,851,2001-05-16,Self-Employed,Bahrain,153254
+30,Brian,Ma,832,1982-04-05,Employed,Micronesia,46161
+31,Ying,Hassan,991,1938-07-15,Self-Employed,Qatar,416346
+32,Linda,Duong,880,1970-01-22,Self-Employed,Madagascar,199674
+33,Maria,Pérez,562,1975-12-18,Student,Kazakhstan,304985
+34,Brian,Petrov,868,1983-02-12,Employed,Guinea,443857
+35,Michelle,Sánchez,570,2000-01-24,Self-Employed,Norway,356326
+36,David,Yadav,851,1992-02-16,Employed,Kuwait,198839
+37,Margaret,Sánchez,851,1939-05-25,Employed,Iraq,456396
+38,Betty,Pérez,987,1946-04-22,Employed,Monaco,110741
+39,Kevin,Miller,570,1970-01-22,Employed,Central African Republic,200759
+40,Steven,Pham,991,1946-03-15,Student,Kiribati,478057
+41,Steven,Kumar,570,1988-11-03,Self-Employed,Estonia,163082
+42,Christopher,Yoon,987,1969-10-18,Employed,Timor-Leste,216105
+43,Linda,Kumar,562,2001-05-16,Employed,Romania,266362
+44,Christopher,Zheng,991,1981-04-04,Student,Ecuador,142291
+45,Kevin,Sánchez,868,1946-04-22,Unemployed,Monaco,254982
+46,Maria,Kumar,991,1970-01-22,Student,Laos,126810
+47,David,Mehta,967,1946-04-22,Unemployed,Singapore,338741
+48,Margaret,Duong,880,1997-12-22,Unemployed,China,181379
+49,Richard,Miller,832,1962-09-25,Self-Employed,Panama,18047
+50,Christopher,Park,570,1978-05-16,Employed,Italy,65754
+51,Ying,Joshi,880,1938-11-04,Employed,Cuba,431313
+52,Steven,Miller,967,1983-02-12,Unemployed,Estonia,425770
+53,Kevin,Pham,415,1953-12-21,Employed,Sri Lanka,228630
+54,Jose,Sánchez,987,1940-04-05,Unemployed,Palau,211295
+55,Christopher,Sánchez,880,1959-03-25,Unemployed,Ghana,267627
+56,Nancy,Ma,832,1964-12-28,Unemployed,Zimbabwe,67856
+57,Michelle,Wilson,880,1970-12-14,Unemployed,Sri Lanka,181144
+58,Linda,Sánchez,967,1945-07-20,Unemployed,Maldives,332563
+59,Margaret,Kumar,415,1959-02-06,Employed,Sudan,64996
+60,Betty,Zheng,851,1971-12-01,Student,Grenada,163840
+61,Linda,He,987,1972-11-26,Employed,Croatia,224327
+62,Karen,Das,987,1946-04-22,Employed,Ecuador,196407
+63,David,Joshi,868,1941-06-18,Student,Bolivia,415198
+64,Jose,Yadav,570,1952-07-23,Unemployed,Bahamas,216505
+65,Steven,Yadav,415,1997-12-22,Self-Employed,Belize,308038
+66,Karen,Das,991,1946-12-21,Employed,Yemen,246687
+67,Richard,Ma,562,1938-11-04,Student,Congo (Congo-Brazzaville),145391
+68,Christine,Zheng,880,1946-12-21,Student,Cabo Verde,351860
+69,Kevin,Yadav,991,1984-08-10,Student,Brazil,306064
+70,Steven,Joshi,562,1939-05-25,Employed,Saint Vincent and the Grenadines,83232
+71,Nancy,Pérez,991,1983-02-12,Student,Seychelles,464384
+72,Christopher,Yoon,562,1987-10-17,Student,Lebanon,421593
+73,Michelle,Kumar,415,1995-10-21,Self-Employed,Myanmar (formerly Burma),178639
+74,Christine,Zheng,868,1974-07-06,Employed,Cuba,111571
+75,Jose,Lim,991,1946-12-21,Employed,Tunisia,194190
+76,Maria,Joshi,991,1967-07-22,Self-Employed,Israel,199146
+77,Anthony,He,868,1949-08-19,Student,South Africa,292226
+78,Christopher,Pham,991,1967-07-22,Self-Employed,Fiji,332785
+79,Christine,Park,987,1962-08-14,Self-Employed,Kenya,103294
+80,Steven,Yadav,832,1962-11-24,Unemployed,Nepal,91077
+81,Joshua,Petrov,967,1975-03-08,Employed,Monaco,95313
+82,David,Park,851,2000-10-08,Self-Employed,Turkey,361984
+83,Christopher,Ma,991,2001-09-26,Employed,Djibouti,215220
+84,Maria,Petrov,967,2003-03-26,Self-Employed,San Marino,12894
+85,Steven,Sánchez,851,1941-06-18,Employed,Cameroon,489249
+86,Ying,Yoon,991,1940-08-29,Employed,Angola,181072
+87,Michelle,Pham,991,1954-08-06,Student,Libya,83520
+88,Betty,Pham,562,1949-08-19,Unemployed,Liberia,100881
+89,Nancy,Yoon,562,1941-08-26,Self-Employed,Mexico,425087
+90,Ying,Hassan,880,1946-04-22,Employed,Benin,458686
+91,DanielCynthia,Sánchez,880,1996-01-28,Self-Employed,Cameroon,279496
+92,Michelle,Mehta,570,1988-03-18,Employed,Malawi,486302
+93,Linda,Pérez,991,1957-02-20,Unemployed,Belarus,457388
+94,DanielCynthia,Das,562,1984-04-23,Self-Employed,Tunisia,301689
+95,Margaret,Pham,967,1959-03-25,Employed,Bahrain,245421
+96,Brian,Kumar,851,1981-11-18,Employed,Costa Rica,120785
+97,Ying,Sánchez,987,1963-06-26,Unemployed,Eswatini,333900
+98,Margaret,Miller,851,1996-01-28,Self-Employed,Congo (Congo-Brazzaville),391092
+99,Joshua,Ma,415,1946-11-18,Employed,South Africa,366998
+100,Christine,Mehta,832,1939-05-25,Self-Employed,Dominican Republic,250643
