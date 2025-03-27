@@ -83,11 +83,10 @@ with open('credit_scores.csv', 'w') as file:
     writer = csv.writer(file)
     writer.writerow(['ID', 'first_name', 'last_name',
                      'credit_score', 'birth_date', 'employment_status',
-                     'country', 'annual_salary'])
+                     'country', 'annual_salary', 'mobile_number'])
     for i in range(customer_count):
         writer.writerow([i+1, choice(first_names), choice(last_names),
                               choice(credit_scores), choice(birth_dates),
                               choice(employment_status),
-                              choice(countries), round(randint(10000, 500000))])
-
-
+                              choice(countries), round(randint(10000, 500000)),
+                              f'+555-{randint(100, 999)}-{randint(100, 999)}-{randint(100, 999)}'])
